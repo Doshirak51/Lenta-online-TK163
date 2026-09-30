@@ -31,6 +31,20 @@ main{padding-top:24px}.intro{min-height:252px;padding:30px 38px;border-radius:22
  .step:first-child:hover{border-color:#f1d03c}
  .chat-step:hover{border-color:#0652aa}
  .chat-card:hover{border-color:var(--line)}
+ .filters button:hover:not([aria-pressed=true]){background:transparent}
+ .action:hover{background:#eaf2ff}
+ .step:first-child .action:hover{background:var(--ink)}
+ .chat-step .action:hover{background:#fff}
+ .copy:hover{background:transparent;color:#7186a1}
+ .step:first-child>.copy:hover{background:transparent}
+ .chat-link:hover{text-decoration:none}
+ .filters button:active:not([aria-pressed=true]){background:#f0f4f9}
+ .action:active{background:#dceaff}
+ .step:first-child .action:active{background:#0a2341}
+ .chat-step .action:active{background:#edf4ff}
+ .copy:active{background:#e5eefb;color:var(--blue)}
+ .step:first-child>.copy:active{background:#ecd01e}
+ .chat-link:active{text-decoration:underline}
 }
 @media(hover:none) and (max-width:740px){.step:hover{box-shadow:0 3px 10px -8px #102d5026}}
 @media(hover:none) and (min-width:741px){.step:hover{box-shadow:0 4px 15px -10px #092f631f}}
